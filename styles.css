@@ -42,6 +42,25 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Cover Image Styles */
+#cover-image {
+    background-image: url('logo.png'); /* Replace 'cover-image.jpg' with your cover image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color for content on top of the cover image */
+    text-align: center;
+}
+
+/* Additional Styles for Content Inside the Cover Image Section */
+#cover-image .container {
+    max-width: 800px; /* Adjust as needed */
+    padding: 20px;
+}
+
 #banner {
     background-image: url('banner.jpg');
     background-size: cover;
@@ -76,6 +95,7 @@ nav ul li a {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
 }
 
 footer {
